@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+          body{
+          
+         
+          }
+
+        .main{
+            background-color: rgb(228, 147, 227);
+            border:4px solid rgb(228, 147, 227) ;
+            border-radius: 40px;
+            align-content: center;
+            height: 400px;
+            width: 600px;
+            margin:80px;
+            padding: ;
+            
+          
+          }
+          .h1{
+            font-size: 20px;
+            color:white
+          }
+          .a{
+            color:white;
+            margin:20px;
+            padding:8px
+
+          }
+          .b{
+            background-color: rgb(193, 71, 207);
+            color:white
+
+          }
+        
+
+
+
+        
+        }
+      }
+</style>
+
+
+<body>
+    
+    <center><div class="main">
+
+       
+        <form>
+            <div class="h1">
+            <center><h1>Welcome to kpop goodies</caption></h1>
+            </div>
+            <div class="a">Email Id:<input type ="email" id="username"></div>
+            <div class="a">Password:<input type="password"><div></div>
+            <div class="a"><input type="checkbox">remember me</div>
+           <div>
+            <button class="b" onclick="fun()">LOGIN</button>
+           
+            </div>
+            
+            </form>
+
+    </div></center>
+    <script>
+        function fun(){
+            
+            var email= document.getElementById("username").value;
+            var pass= document.getElementById('password').value;
+            if(email=='xyz@gmail.com '&& pass=='0977'){
+                alert("Sucessful!")
+                window.location.assign("kpopgoodies.html")
+            }
+            else{
+                alert("wrong username or password!!")
+            }
+        }
+       
+    </script>
+
+    
+</body>
+</html>
